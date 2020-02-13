@@ -16,3 +16,5 @@ DOMAINS_SET_CUSTOM_NS = 'namecheap.domains.dns.setCustom'
 DOMAINS_REGISTER = 'namecheap.domains.create'
 DOMAINS_GET_CONTACTS = 'namecheap.domains.getContacts'
 DOMAINS_SET_CONTACTS = 'namecheap.domains.setContacts'
+
+DOMAINS_DNS_GET_HOSTS = "namecheap.domains.dns.getHosts"
