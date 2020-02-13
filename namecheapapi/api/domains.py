@@ -645,18 +645,19 @@ class DomainAPI(Session):
 
     def get_host_records(self):
 
-        domains = []
+        # domains = []
 
-        # A check on the total domain number (minimal PageSize is 10)
-        query = {
-            'SLD': "allis",
-            'TLD': "best",
-        }
+        # # A check on the total domain number (minimal PageSize is 10)
+        # query = {
+        #     'SLD': "allis",
+        #     'TLD': "best",
+        # }
 
-        xml = self._call(DOMAINS_DNS_GET_HOSTS, query).find(self._tag('Host'))
-        # total_domains = int(xml.find(self._tag('TotalItems')).text)
+        # xml = self._call(DOMAINS_DNS_GET_HOSTS, query).find(self._tag('Host'))
+        # # total_domains = int(xml.find(self._tag('TotalItems')).text)
 
-        # return domains
+        # # return domains
+        pass
 
     def set_host_records(self):
         pass
